@@ -1,10 +1,10 @@
 const { Telegraf, Markup } = require("telegraf");
-const TOKEN = "7116718695:AAFc0ju_f7FHgcSTa4v6Tvwmkq4e-4rCZxc";
+const TOKEN = "7554612872:AAHGAs6T1kuIxfVOmJoLCq2sJtIq1Z8cFXA";
 const bot = new Telegraf(TOKEN);
 const express = require("express");
 const app = express();
 app.use(express.json());
-const web_link = "https://botapp-lyart.vercel.app/";
+const web_link = "https://botapp-lyart.vercel.app";
 const community_link = "https://t.me/concept_developer";
 
 bot.start((ctx) => {
